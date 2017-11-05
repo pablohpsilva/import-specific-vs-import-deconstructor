@@ -1,4 +1,4 @@
-# import-specific-vs-import-deconstructor
+# import-specific-vs-import-destructor
 This repo was created to proof that the performance on importing files like:
 ```javascript
 import Comp1 from './dummy/Comp1'
