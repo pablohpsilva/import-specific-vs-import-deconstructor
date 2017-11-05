@@ -5,6 +5,8 @@
     "author": "Pablo Henrique",
     "license": "MIT",
     "scripts": {
+        "start-destructor": "nodemon lib/destructor.js --exec babel-node",
+        "start-specific": "nodemon lib/specific.js --exec babel-node",
         "start": "nodemon lib/index.js --exec babel-node",
         "build": "babel lib -d dist"
     },
